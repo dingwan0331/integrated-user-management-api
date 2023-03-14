@@ -20,8 +20,8 @@ public class User {
     @Column(name = "external_key", nullable = false, unique=true)
     private String external_key;
 
-    @Column(name = "user_name", nullable = true, length = 20,unique=true)
-    private String userName;
+    @Column(name = "username", nullable = true, length = 20,unique=true)
+    private String username;
 
     @Column(name = "nick_name", nullable = true, length = 20, unique=true)
     private String nickName;
@@ -29,6 +29,6 @@ public class User {
     @Column(name = "mobile_phone_number", nullable = false, length = 20)
     private String mobilePhoneNumber;
 
-    @Column(name = "passwrod", nullable = true, length = 60)
-    private Byte password;
+    @Column(name = "password", nullable = true, length = 60)
+    private byte[] password;
 }
