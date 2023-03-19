@@ -22,6 +22,7 @@ public class UserServiceImpl implements UserService{
         user.setNickName(postUserRequestDto.getNickName());
         user.setMobilePhoneNumber(postUserRequestDto.getMobilePhoneNumber());
 
-        return userRepository.saveUser(user);
+//        return userRepository.saveUser(user);
+        return user;
     }
 }
