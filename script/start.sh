@@ -1,0 +1,1 @@
+java -jar build/libs/integrated-user-management-api-0.0.1-SNAPSHOT.jar
